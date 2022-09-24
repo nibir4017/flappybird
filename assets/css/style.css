@@ -1,5 +1,6 @@
 body{
     overflow-y: hidden;
+    margin: 0 auto;
 }
  .sky{
     width: 100%;
@@ -29,4 +30,10 @@ body{
     height: 200px;
     width: 80px;
     background-color: brown;
+}
+@media screen and (max-width:400px) {
+    .container-fluid{
+       transform: scale(0.8) !important;
+
+    }
 }
