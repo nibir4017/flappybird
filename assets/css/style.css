@@ -1,6 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
-    overflow-y: ;
+    overflow: hidden;
     margin: 0 auto;
+    
+}
+.container-fluid{
+    width: 100% !important;
 }
  .sky{
     width: 100%;
@@ -22,15 +30,39 @@ body{
     position: absolute;
     bottom: 13px;
     left: 80px;
+    
 }
 .pillar{
-    position: absolute;
+   background-color: brown;
     bottom: 0;
-    left: 60%;
+    right: 20px;
     height: 200px;
     width: 80px;
-    background-color: brown;
+    border: 1px solid black;
+    position: absolute;
+    animation: myfirst 1s 2;
+    animation-duration: 2s;
+    animation-iteration-count:;
 }
+@keyframes myfirst {
+    0%  {
+       
+      }
+      30%{
+        
+      }
+      50%{
+       
+
+      }
+      70%{
+        
+      }
+      100% {
+        
+      }
+  }
+
 @media screen and (max-width:400px) {
     .container-fluid{
        transform: scale(0.8) !important;
